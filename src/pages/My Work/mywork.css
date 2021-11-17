@@ -1,0 +1,42 @@
+.myWork {
+  height: 100vh;
+}
+.sliderTitle {
+  text-align: center;
+  padding: 30px;
+  font-size: 25px;
+  color: antiquewhite;
+}
+.active {
+  animation-name: moveInTop;
+  animation-duration: 3s;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 600px) {
+  .myWork {
+    height: 60vh;
+  }
+  .sliderTitle {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 605px) and (max-width: 900px) {
+  .myWork {
+    height: 80vh;
+  }
+  .sliderTitle {
+    padding: 20px;
+    font-size: 20px;
+  }
+}

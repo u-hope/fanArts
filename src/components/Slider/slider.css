@@ -1,0 +1,71 @@
+.wrapper {
+  height: 150vh;
+  width: 100%;
+}
+
+.slide {
+  min-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+.slide::-webkit-scrollbar {
+  width: 0;
+}
+.sliderImage {
+  display: flex;
+  float: left;
+  padding-left: 15px;
+  margin-left: 20px;
+
+  box-shadow: 5px 10px 18px rgb(38, 58, 38);
+}
+.sliderImage:hover {
+  z-index: 1;
+  text-align: center;
+  justify-content: center;
+  padding: 40px;
+  transition: ease-in-out;
+  transition-duration: 800ms;
+}
+.image {
+  width: 350px;
+  height: 500px;
+}
+.sliderImage:hover .image {
+  width: 500px;
+  height: 350px;
+}
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  position: relative;
+  display: block;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+@media (max-width: 600px) {
+  .sliderImage {
+    display: flex;
+    float: left;
+    padding-left: 10px;
+  }
+  .image {
+    width: 150px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 605px) and (max-width: 1200px) {
+  .sliderImage {
+    display: flex;
+    float: left;
+    padding-left: 10px;
+  }
+  .image {
+    width: 200px;
+    height: 300px;
+  }
+}

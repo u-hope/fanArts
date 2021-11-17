@@ -1,0 +1,159 @@
+.header {
+  height: 90vh;
+  padding-top: 40px;
+  background-image: url(../../Image/bci.jpg);
+  clip-path: polygon(
+    100% 5%,
+    100% 80%,
+    93% 84%,
+    77% 87%,
+    59% 86%,
+    44% 83%,
+    26% 81%,
+    11% 86%,
+    0 95%,
+    0 5%
+  );
+  background-size: cover;
+  overflow: hidden;
+}
+.headingPrimary {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 15%;
+}
+.headerTextbox {
+  background-color: transparent;
+}
+
+.headingPrimary--main {
+  display: block;
+  font-size: 60px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  background-color: transparent;
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.headingPrimary--sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 10px;
+  background-color: transparent;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+.btn {
+  background-color: transparent;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.219);
+  position: relative;
+  top: 70%;
+  left: 10%;
+  padding-top: 30px;
+  padding-left: 30%;
+  display: block;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: all 0.2s;
+  animation: moveInBottom 2s;
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    opactiy: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@media (max-width: 600px) {
+  .header {
+    height: 60vh;
+    padding-top: 40px;
+    background-image: url(../../Image/bci.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  .headingPrimary {
+    color: rgba(240, 248, 255, 0.596);
+    text-align: center;
+    margin-top: 25%;
+  }
+  .headingPrimary--sub {
+    display: block;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+  .headingPrimary--main {
+    display: block;
+    font-size: 40px;
+    font-weight: 200;
+    letter-spacing: 5px;
+  }
+  #btn {
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .header {
+    height: 90vh;
+    padding-top: 40px;
+    background-image: url(../../Image/bci.jpg);
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+  }
+  .headingPrimary {
+    color: rgba(240, 248, 255, 0.596);
+    text-align: center;
+    margin-top: 15%;
+  }
+  .headingPrimary--sub {
+    display: block;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 5px;
+  }
+  .headingPrimary--main {
+    display: block;
+    font-size: 35px;
+    font-weight: 200;
+    letter-spacing: 5px;
+  }
+  #btn {
+    display: none;
+  }
+}

@@ -1,0 +1,184 @@
+.contact {
+  height: 80vh;
+  margin-top: 80px;
+  padding: 50px 100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../../Image/fan4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content {
+  max-width: 800px;
+  text-align: center;
+}
+.contactTitle {
+  font-size: 36px;
+  font-weight: 500;
+  color: rgb(10, 32, 32);
+}
+.contactDetail {
+  font-weight: 300;
+  font-size: 20px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  flex-direction: column;
+  font-weight: 300;
+}
+.text p {
+  color: rgb(26, 1, 1);
+  font-weight: 400;
+  font-size: 20px;
+}
+.text a {
+  color: rgb(26, 1, 1);
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+}
+.text h3 {
+  font-weight: 500;
+  color: #061d13;
+}
+.contactForm {
+  width: 50%;
+  padding: 35px;
+  color: white;
+  background-color: rgba(5, 44, 44, 0.377);
+}
+
+.contactForm h2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.inputBox input {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 26px;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.submitInput {
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .content {
+    font-size: 15px;
+  }
+  .contactDetail {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactInfo {
+    width: 100%;
+    margin-left: -30%;
+  }
+
+  .box {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: 10px;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+  .contactForm {
+    display: none;
+  }
+}
+@media screen and (min-width: 605px) and (max-width: 1200px) {
+  .content {
+    font-size: 15px;
+  }
+  .contactDetail {
+    display: none;
+  }
+
+  .container {
+    width: 100%;
+    display: block;
+    margin-top: 30px;
+  }
+
+  .contactInfo {
+    width: 100%;
+    margin-left: 10%;
+  }
+
+  .box {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+  .text {
+    display: flex;
+    margin-left: 10px;
+    font-size: 10px;
+    flex-direction: column;
+    font-weight: 300;
+  }
+
+  .contactForm {
+    display: none;
+  }
+}

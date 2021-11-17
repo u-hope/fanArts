@@ -1,0 +1,103 @@
+.about {
+  height: 95vh;
+  width: 100%;
+  color: white;
+  font-size: 50px;
+  margin-top: 30px;
+  text-align: center;
+  display: flex;
+}
+
+.aboutLeft {
+  flex: 4;
+}
+.activeLeft {
+  animation-name: moveInLeft;
+  animation-duration: 3s;
+}
+.aboutImg {
+  height: 500px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.aboutRight {
+  flex: 8;
+  margin-top: 20px;
+}
+.activeRight {
+  animation-name: moveInRight;
+  animation-duration: 3s;
+}
+.aboutDetails {
+  font-size: 20px;
+  padding: 30px;
+  margin-top: 40px;
+}
+.aboutTitle {
+  text-align: center;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    margin-top: 10px;
+    height: 60vh;
+  }
+  .aboutTitle {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .aboutImg {
+    height: 140px;
+    margin-top: 150px;
+    margin-left: 5px;
+    border-radius: 50px;
+  }
+  .aboutDetails {
+    font-size: 10px;
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 605px) and (max-width: 1200px) {
+  .about {
+    margin-top: 20px;
+    height: 65vh;
+  }
+  .aboutTitle {
+    text-align: center;
+    font-size: 40px;
+  }
+  .aboutImg {
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 5px;
+    border-radius: 50px;
+  }
+  .aboutDetails {
+    font-size: 15px;
+    padding: 30px;
+    margin-top: 20px;
+  }
+}
