@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fanArts/static/css/main.6c76b0c9.chunk.css",
+    "main.js": "/fanArts/static/js/main.eca2b7a9.chunk.js",
+    "main.js.map": "/fanArts/static/js/main.eca2b7a9.chunk.js.map",
+    "runtime-main.js": "/fanArts/static/js/runtime-main.98b52a70.js",
+    "runtime-main.js.map": "/fanArts/static/js/runtime-main.98b52a70.js.map",
+    "static/js/2.8e8772ed.chunk.js": "/fanArts/static/js/2.8e8772ed.chunk.js",
+    "static/js/2.8e8772ed.chunk.js.map": "/fanArts/static/js/2.8e8772ed.chunk.js.map",
+    "index.html": "/fanArts/index.html",
+    "static/css/main.6c76b0c9.chunk.css.map": "/fanArts/static/css/main.6c76b0c9.chunk.css.map",
+    "static/js/2.8e8772ed.chunk.js.LICENSE.txt": "/fanArts/static/js/2.8e8772ed.chunk.js.LICENSE.txt",
+    "static/media/header.css": "/fanArts/static/media/bci.df085d36.jpg",
+    "static/media/contact.css": "/fanArts/static/media/fan4.c59adab5.jpg",
+    "static/media/fana.9478dd21.jpg": "/fanArts/static/media/fana.9478dd21.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98b52a70.js",
+    "static/js/2.8e8772ed.chunk.js",
+    "static/css/main.6c76b0c9.chunk.css",
+    "static/js/main.eca2b7a9.chunk.js"
+  ]
+}
